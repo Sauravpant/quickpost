@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+}
+.content {
+  width:100%;
+}
+.sidebar {
+  min-height: 100vh;
+}
+.custom-card {
+  height: 300px;
+  width: 30vw;
+  display: inline-block;
+  border: 2px solid black;
+  margin: 3em;
+}
+.tag {
+  margin: 0.5em;
+  height:30px;
+}
+button {
+  margin: 5px 5px;
+  display: inline-block;
+}
+
+.post-input {
+  width: 50%;
+  margin: 3rem;
+}
