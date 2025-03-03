@@ -16,7 +16,7 @@ export default function PostList() {
       const data = await response.json();
       addPostFromAPI(data.posts);
     } catch (error) {
-      console.error(error);
+      console.log(error);
     }
   };
 
